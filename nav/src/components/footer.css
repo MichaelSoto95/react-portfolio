@@ -1,0 +1,22 @@
+.footer{
+    height: 25vh;
+     /* background-image:url('../assets/images/split_background.jpg') ;  */
+     
+   background-color: #593cda;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 15%;
+   flex-wrap: wrap;
+   /* clip-path: inset(-10px -10px);
+   transform: rotate(2deg); */
+}
+.footer-list{
+    list-style: none;
+    justify-content: center;
+
+}
+.footer-links{
+    font-size: 1.1rem;
+}
