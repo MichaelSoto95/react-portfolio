@@ -2,10 +2,10 @@
     display: flex;
     flex-direction: column;
     place-items: center;
-   min-height: 100vh;
+   min-height: 90vh;
   justify-content: center;
   align-items: center;
-  z-index: -1;
+z-index: -1;
   background-image:url('../assets/images/background.svg') ; 
   background-size: cover;
 }
@@ -21,8 +21,26 @@
   width: 80%;
   min-height:350px;
   background-color: white;
-  box-shadow:  5px 5px 10px #4b49492d,
-  -5px -5px 10px #4b49492d;
+  box-shadow:  5px 5px 10px #4b494912,
+  -5px -5px 10px #4b494912;
   border-radius:1rem;
   padding: 2rem;
+}
+::-webkit-scrollbar {
+  width:10px;
+   
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+   background: white;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+
+ background-color: #646cff;
+ border: solid 1px white;
+ border-radius: 20px;
 }

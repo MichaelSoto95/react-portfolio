@@ -7,10 +7,9 @@ const Type = () => {
                 // Same substring at the start will only be typed out once, initially
                 'Hi my name is Michael and im a jr front-end developer.',
                 1000,
-                'Hi my name is Michael and im a jr front-end developer.' // wait 1s before replacing "Mice" with "Hamsters"
             ]}
             wrapper="span"
-            speed={25}
+            speed={30}
             style={{ display: 'inline-block' }}
             repeat={Infinity}
         />
